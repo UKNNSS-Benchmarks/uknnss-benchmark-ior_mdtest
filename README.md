@@ -30,7 +30,7 @@ mdtest included in this repository.
 
 Modifications to the benchmark application code are only permissible to enable
 correct compilation and execution on the target platform.
-Any modifications must be fully documented (e.g., as a diff or patch file)
+Any modifications must be fully documented (e.g., as a pull request, diff or patch file)
 and reported with the benchmark results.
 
 ### Manual build
