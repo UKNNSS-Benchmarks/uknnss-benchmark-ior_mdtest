@@ -12,24 +12,14 @@ Stable
 
 [@aturner-epcc](https://github.com/aturner-epcc)
 
-## Overview
+**Important:** Please do not contact the benchmark maintainers directly with any questions.
+All questions on the benchmark must be submitted via the procurement response mechanism.
 
-### Software
+## Software
 
 MPI and MPI-IO are required to build and run the codes. The source code
 used for this benchmark is derived from IOR 3.3.0 and it is included here. 
 More information about IOR is available at https://github.com/hpc/ior.
-
-### Architectures
-
-- CPU: x86, Arm
-- GPU: NVIDIA, AMD, Intel
-
-### Languages and programming models
-
-- Programming languages: C
-- Parallel models: MPI
-- Accelerator offload models: CUDA, ROCm
 
 ## Building the benchmark
 
@@ -60,7 +50,7 @@ executable at `src/mdtest`.
 
 ## Running the benchmark
 
-### Required Tests
+### Required tests
 
 To complete the entire benchmark, two sets of measurements are required:
 
