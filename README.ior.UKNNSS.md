@@ -140,8 +140,8 @@ block size of 4K:
 ```
 fileSize = segmentCount * 4K * numTasks
 ```
-So for a test on nodes with 480 GiB of RAM, `fileSize` must
-be at least 720 GB (737,280 MiB).  Assuming `numTasks=64`,
+So for a test on nodes with 480 GiB of RAM (503,316,480 KiB), `fileSize` must
+be at least 720 GB (754,974,720 KiB).  Assuming `numTasks=64`,
 an appropriate `segmentCount` would be
 ```
 segmentCount = fileSize / ( 4K * numTasks ) = 2949120
