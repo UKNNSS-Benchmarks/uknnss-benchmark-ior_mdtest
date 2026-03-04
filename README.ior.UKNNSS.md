@@ -92,6 +92,11 @@ In all three scripts, the bidder **MUST** modify the following
   the total RAM available on each compute node and is intended to
   represent the memory footprint of a real application.
 
+* `reorderTasksConstant ` - stride to use to between write and read
+  test phases. This should be set to the number of MPI processes per
+  node to avoid client sise cache effects. For example, if the test runs
+  with 4 MPI processes per node, this would be set to "4".
+
 ### b. Optional configuration file modifications for sequential workloads
 
 For the sequential access tests (1 and 2), the bidder **MAY** modify the
